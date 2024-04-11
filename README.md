@@ -136,7 +136,7 @@ $ npm install node-fetch --save
 First, instantiate the wrapper.
 
 ```javascript
-var SpotifyWebApi = require('spotify-web-api-node');
+var SpotifyWebApi = require('spotify-web-api-node-plus');
 
 // credentials are optional
 var spotifyApi = new SpotifyWebApi({
@@ -222,7 +222,7 @@ Spotify's Web API returns different types of error objects depending on the endp
 
 #### Example of a response
 
-Retrieving a track's metadata in `spotify-web-api-node` version 1.4.0 and later:
+Retrieving a track's metadata in `spotify-web-api-node-plus` version 1.4.0 and later:
 
 ```json
 {
@@ -249,7 +249,7 @@ Retrieving a track's metadata in `spotify-web-api-node` version 1.4.0 and later:
 Below are examples for all helper functions. Longer examples of some requests can be found in the [examples folder](examples/).
 
 ```javascript
-var SpotifyWebApi = require('spotify-web-api-node');
+var SpotifyWebApi = require('spotify-web-api-node-plus');
 
 var spotifyApi = new SpotifyWebApi();
 
