@@ -5,6 +5,10 @@ This is a universal wrapper/client for the [Spotify Web API](https://developer.s
 This library is a fork of [spotify-web-api-node](https://github.com/thelinmichael/spotify-web-api-node) with the goal of
 the library becoming dependency free and actively maintained.
 
+## Links
+
+* [NPM](https://www.npmjs.com/package/spotify-web-api-node-plus)
+
 ## Table of contents
 
 * [Features](#features)
@@ -116,7 +120,7 @@ All methods require authentication, which can be done using these flows:
 
 ##### Dependencies
 
-This project depends on [superagent](https://github.com/visionmedia/superagent) to make HTTP requests.
+This project depends on [node-fetch](https://www.npmjs.com/package/node-fetch) to make HTTP requests.
 
 ## Installation
 
