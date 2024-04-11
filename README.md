@@ -125,7 +125,7 @@ This project depends on [node-fetch](https://www.npmjs.com/package/node-fetch) t
 ## Installation
 
 ```bash
-$ npm install spotify-web-api-node --save
+$ npm install spotify-web-api-node-plus --save
 # If you are using this library in a Node version that does not have the fetch function (Node < v17), you will need
 # to install and configure a fetch polyfill
 $ npm install node-fetch --save
